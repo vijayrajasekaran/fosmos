@@ -1,0 +1,3 @@
+# Fosmos.js
+
+App templates

@@ -1,0 +1,31 @@
+{
+  "name": "fosmos",
+  "version": "0.0.1",
+  "description": "MVC Framework with SSR based on Fastify/React/MongoDB/Tailwindcss",
+  "main": "./bin/index.js",
+  "bin": {
+    "fosmos": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\""
+  },
+  "preferGlobal": true,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vijayrajasekaran/fosmos.git"
+  },
+  "author": "Vijay Rajasekaran",
+  "license": "MIT",
+  "private": false,
+  "bugs": {
+    "url": "https://github.com/vijayrajasekaran/fosmos/issues"
+  },
+  "homepage": "https://github.com/vijayrajasekaran/fosmos#readme",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "fs-extra": "^10.0.0",
+    "inquirer": "^8.1.2",
+    "shelljs": "^0.8.4",
+    "write-json": "^3.0.1"
+  }
+}

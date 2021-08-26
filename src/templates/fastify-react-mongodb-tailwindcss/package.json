@@ -1,0 +1,37 @@
+{
+  "name": "fosmos-app",
+  "version": "0.0.1",
+  "description": "MVC Framework with SSR based on Fastify/React/MongoDB/Tailwindcss",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run lint -s & node ./index.js",
+    "lint": "eslint ./",
+    "test": "echo \"Error: no test specified\""
+  },
+  "author": "Vijay Rajasekaran",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "autoprefixer": "^10.3.1",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "2.22.1",
+    "eslint-plugin-node": "11.1.0",
+    "eslint-plugin-promise": "4.2.1",
+    "eslint-plugin-react": "^7.24.0",
+    "fastify": "^3.19.2",
+    "fastify-nextjs": "https://github.com/vijayrajasekaran/fastify-nextjs.git",
+    "fastify-plugin": "^3.0.0",
+    "mongoose": "^5.13.3",
+    "next": "^11.0.1",
+    "open": "^8.2.1",
+    "point-of-view": "^4.15.1",
+    "postcss": "^8.3.6",
+    "pug": "^3.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "tailwindcss": "^2.2.7"
+  },
+  "devDependencies": {
+    "eslint": "7.12.1"
+  }
+}
